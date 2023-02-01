@@ -1,7 +1,6 @@
-# Tokio Async with Example
+# Explore asynchronous Rust runtime with Tokio
 
-
-## Hello World in Tokio
+## Hello World
 [Link](hello_world) to example
 
 ## Let's try out Async
