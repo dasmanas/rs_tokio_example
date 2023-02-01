@@ -1,0 +1,15 @@
+[workspace]
+members = ["hello_world", "asynchronous", "concurrency", "concurrency_join", "common-lib"]
+
+[workspace.package]
+version = "0.0.1"
+authors = ["Manas Das"]
+description = "Tokio examples"
+documentation = "https://example.com/bar"
+edition = "2021"
+rust-version = "1.64.0"
+
+[workspace.dependencies]
+tokio = { version="1.24.1", features = ["full"] }
+serde = { version="1.0.152", features = ["derive"] }
+reqwest = { version="0.11.14", features = ["json"] }

@@ -1,0 +1,13 @@
+[package]
+name = "common-lib"
+version.workspace = true
+authors.workspace = true
+documentation.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Common library for the workspace"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { workspace = true }

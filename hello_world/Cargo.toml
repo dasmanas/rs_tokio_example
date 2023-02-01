@@ -1,0 +1,13 @@
+[package]
+name = "hello_world"
+version.workspace = true
+authors.workspace = true
+documentation.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Hello World in Tokio Async"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { workspace = true }
