@@ -1,5 +1,6 @@
 [workspace]
-members = ["hello_world", "asynchronous", "concurrency", "concurrency_join", "common-lib"]
+members = ["hello_world", "asynchronous", "concurrency", "concurrency_join", "fnonce_simple", "closure_simple",
+    "closure_async", "closure_async_return_result", "common-lib"]
 
 [workspace.package]
 version = "0.0.1"
@@ -7,7 +8,7 @@ authors = ["Manas Das"]
 description = "Tokio examples"
 documentation = "https://example.com/bar"
 edition = "2021"
-rust-version = "1.64.0"
+rust-version = "1.66.1"
 
 [workspace.dependencies]
 tokio = { version="1.24.1", features = ["full"] }

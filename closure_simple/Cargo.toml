@@ -1,0 +1,15 @@
+[package]
+name = "closure_simple"
+version.workspace = true
+authors.workspace = true
+documentation.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Simple Closure example"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+reqwest = { workspace = true }

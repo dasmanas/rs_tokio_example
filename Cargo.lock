@@ -54,6 +54,33 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "closure_async"
+version = "0.0.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "tokio",
+]
+
+[[package]]
+name = "closure_async_return_result"
+version = "0.0.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "tokio",
+]
+
+[[package]]
+name = "closure_simple"
+version = "0.0.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "tokio",
+]
+
+[[package]]
 name = "common-lib"
 version = "0.0.1"
 dependencies = [
@@ -111,6 +138,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a7a407cfaa3385c4ae6b23e84623d48c2798d06e3e6a1878f7f59f17b3f86499"
 dependencies = [
  "instant",
+]
+
+[[package]]
+name = "fnonce_simple"
+version = "0.0.1"
+dependencies = [
+ "reqwest",
+ "serde",
+ "tokio",
 ]
 
 [[package]]
