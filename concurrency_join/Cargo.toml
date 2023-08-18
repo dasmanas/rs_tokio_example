@@ -12,5 +12,7 @@ description = "Concurrency program example - join child threads to parent"
 [dependencies]
 tokio = { workspace = true }
 serde = { workspace = true }
+serde_json = { workspace = true }
 reqwest = { workspace = true }
+rand = { workspace = true }
 common-lib = { path = "../common-lib" }
