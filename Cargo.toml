@@ -1,6 +1,6 @@
 [workspace]
 members = ["hello_world", "asynchronous", "concurrency", "concurrency_join", "fnonce_simple", "closure_simple",
-    "closure_async", "closure_async_return_result", "common-lib"]
+    "closure_async", "closure_async_return_result", "service_listner", "common-lib"]
 
 [workspace.package]
 version = "0.0.1"

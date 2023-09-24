@@ -830,6 +830,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "service_listner"
+version = "0.0.1"
+dependencies = [
+ "common-lib",
+ "rand",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "tokio",
+]
+
+[[package]]
 name = "signal-hook-registry"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

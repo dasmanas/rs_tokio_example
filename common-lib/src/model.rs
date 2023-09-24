@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Zipcode {
     #[serde(rename = "post code")]
     pub post_code: String,
@@ -10,7 +10,7 @@ pub struct Zipcode {
     pub places: Vec<Place>,
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Place {
     #[serde(rename = "place name")]
     pub place_name: String,
